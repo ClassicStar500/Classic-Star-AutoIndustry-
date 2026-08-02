@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Search Record | Classic Star Auto Industry</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<h2>Classic Star Auto Industry</h2>
+
+<p>Development by M.Muzammil K</p>
+
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="search.html" class="active">Search</a>
+
+<a href="about.html">About</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="overlay">
+
+<h1>Customer Search</h1>
+
+<p>
+
+Search Customer by Phone Number or CNIC
+
+</p>
+
+<div class="search-box">
+
+<input
+id="searchInput"
+type="text"
+placeholder="فون نمبر یا شناختی کارڈ نمبر درج کریں">
+
+<button onclick="searchRecord()">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+Search
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="result-section">
+
+<div id="result">
+
+<h2>No Record Found</h2>
+
+<p>
+
+Search customer information here.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="download">
+
+<button id="downloadBtn">
+
+<i class="fa-solid fa-download"></i>
+
+Download Record Image
+
+</button>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Classic Star Auto Industry
+
+</p>
+
+<p>
+
+Development by <b>M.Muzammil K</b>
+
+</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+<script src="download.js"></script>
+
+<script src="Data.js"></script>
+
+</body>
+</html>
