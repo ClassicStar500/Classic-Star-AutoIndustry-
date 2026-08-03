@@ -861,7 +861,7 @@ return;
 let customer=customers.find(c=>
 
 c.phone===search ||
-c.name===search
+  
 c.cnic===search
 
 );
